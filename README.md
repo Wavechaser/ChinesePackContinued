@@ -5,10 +5,16 @@ For now, this is only a dev-preview version, and it is very buggy.
 
 Contributors:
 mark7 (Project lead, some cfg editing and realism integration)
+
 01010101lzy (Modeling, texturing, some cfg balancing)
+
 Ladeng (Modding advisory, general support, member of Kerwis. I didn't find his profile page)
+
 MMG (cfg editing, testings, aerodynamics)
+
 Wavechaser (cfg editing, MM patching, public relations and support)
+
+
 
 Special thanks:
 Dragon01 (Modding advisory)
