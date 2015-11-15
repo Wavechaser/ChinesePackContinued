@@ -1,0 +1,108 @@
+//Surface FX Fix
+//By Wavechaser
+//CZ-1
+@PART[cz1_stage_1st]:FINAL  //CZ-1 Stage 1 Engine
+{
+    MODULE
+    {
+        name = ModuleSurfaceFX
+        thrustProviderModuleIndMex = 0
+        fxMax = 0.7
+        maxDistance = 40
+        falloff = 2
+        thrustTransformName = thrustTransform
+    }
+}
+
+@PART[cz1_engine_2nd_stage]:FINAL  //CZ-1 Stage 2 Engine
+{
+    MODULE
+    {
+        name = ModuleSurfaceFX
+        thrustProviderModuleIndMex = 0
+        fxMax = 0.65
+        maxDistance = 30
+        falloff = 1.5
+        thrustTransformName = thrustTransform
+    }
+}
+
+@PART[cz1_engine_3rd_stage]:FINAL  //CZ-1 Stage 3 SRB
+{
+    MODULE
+    {
+        name = ModuleSurfaceFX
+        thrustProviderModuleIndMex = 0
+        fxMax = 0.4
+        maxDistance = 20
+        falloff = 1
+        thrustTransformName = thrustTransform
+    }
+}
+
+//CZ-3B
+@PART[long_march_3B_Engine_YF75]:FINAL  //CZ-3B Stage 3 YF-75
+{
+    MODULE
+    {
+        name = ModuleSurfaceFX
+        thrustProviderModuleIndMex = 0
+        fxMax = 0.4
+        maxDistance = 20
+        falloff = 1
+        thrustTransformName = thrustTransform
+    }
+}
+
+//CZ-5
+@PART[CPC_YF100_Univ]:FINAL //YF-100 Universal Engine
+{
+    MODULE
+    {
+        name = ModuleSurfaceFX
+        thrustProviderModuleIndMex = 0
+        fxMax = 0.9 //this could be a little bit too much
+        maxDistance = 60
+        falloff = 2.5
+        thrustTransformName = thrustTransform
+    }
+}
+
+@PART[CZ5-YF100]:FINAL  //CZ-5 Booster YF-100, or CZ-5 200 Series Stage 1 Core YF-100
+{                       //I don't know why they have this since there's a universal one
+    MODULE
+    {
+        name = ModuleSurfaceFX
+        thrustProviderModuleIndMex = 0
+        fxMax = 0.95
+        maxDistance = 60
+        falloff = 2.5
+        thrustTransformName = thrustTransform
+    }
+}
+
+@PART[CZ5-YF75D]:FINAL  //CZ-5 Stage 2 YF-75D
+{
+    MODULE
+    {
+        name = ModuleSurfaceFX
+        thrustProviderModuleIndMex = 0
+        fxMax = 0.7
+        maxDistance = 40
+        falloff = 1.5
+        thrustTransformName = thrustTransform
+    }
+}
+
+@PART[CZ5-YF77]:FINAl   //CZ-5 500 Series Stage 1 Core YF-77
+{
+    MODULE
+    {
+        name = ModuleSurfaceFX
+        thrustProviderModuleIndMex = 0
+        fxMax = 1
+        maxDistance = 70
+        falloff = 2.7
+        thrustTransformName = thrustTransform
+    }
+}
