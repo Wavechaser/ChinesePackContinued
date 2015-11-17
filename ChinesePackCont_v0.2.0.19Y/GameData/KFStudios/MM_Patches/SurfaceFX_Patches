@@ -1,5 +1,6 @@
-//Surface FX Fix
+//Surface FX Fix, adds Surface FX to all CPC engines that doesn't have it
 //By Wavechaser
+
 //CZ-1
 @PART[cz1_stage_1st]:FINAL  //CZ-1 Stage 1 Engine
 {
@@ -94,7 +95,7 @@
     }
 }
 
-@PART[CZ5-YF77]:FINAl   //CZ-5 500 Series Stage 1 Core YF-77
+@PART[CZ5-YF77]:FINAL   //CZ-5 500 Series Stage 1 Core YF-77
 {
     MODULE
     {
